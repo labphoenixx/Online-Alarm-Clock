@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="app">
+            <h1><b>Online Alarm Clock</b></h1>
+            <div id="live-time">00</div>
+            <br>
+            <p><b>Instructions:</b></p>
+            <p>Click the trash can emoji to delete an alarm <br>
+                Click the snooze button to snooze the alarm by 5 minutes <br>
+                Click the Dark mode/Light mode button to toggle b/w the 2 modes <br>
+            </p><br>
+            <h4>Set the time below and click add:</h4>
+            <!---Input--> <input type="time" placeholder="time" id="input">
+            <button class="add">Add</button>
+
+            <ul id="alarm-list">
+                <!--something-->
+            </ul>
+            <button class="mode">Dark mode</button>
+        </div>
+        <script src="connect.js"></script>
+    </div>
+</body>
+
+</html>

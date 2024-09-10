@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0%;    
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(blue, purple, black);
+    padding: 10px;
+}
+
+.app{
+    max-width: 500px;
+    min-height: 200px;
+    background-color: white;
+    padding: 40px 30px 70px;
+    margin: 100px auto 20px;
+    align-content: center;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-style: italic;
+}
+ul li{
+    list-style: none;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 50px;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    background-image: url("Unchecked.png");
+    height: 20px;
+    width: 20px;
+    background-position: center;
+    background-size: cover;
+    top: 12px;
+    left: 8px;
+}
+
+ul li {
+    list-style: none;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 50px;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+ul li span:hover{
+    background: gold;
+}
+
+#live-time{
+    font-size: 40px;
+    text-align: center;
+}
+
+.temp{
+    width: fit-content;
+    height: 20px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+.snooze{
+    padding-right: 30px;
+    align-content: center;
+}
+
+.add{
+    padding: 10px;
+    color:aliceblue;
+    background-color: red;
+    border-radius: 5px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div.darkMode{
+    max-width: 500px;
+    min-height: 200px;
+    background-color: #333;
+    padding: 40px 30px 70px;
+    margin: 100px auto 20px;
+    align-content: center;
+    border: 5px solid white;
+    border-radius: 20px;
+    color: white
+}
+
+.mode{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 200;
+}
